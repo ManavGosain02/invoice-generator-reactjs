@@ -120,11 +120,9 @@ export default function TableForm({ description, setDescription, quantity, setQu
          </React.Fragment>
         ))}
       </table> 
+
       <div>
-        <h4 className='text-gray-800 text-2xl font-bold mb-5'>{ total.toLocaleString }</h4>
-      </div>
-      <div>
-          <h2 className='text-gray-800 text-4xl font-bold flex items-end justify-end'>Rs. { total }</h2>
+          <h2 className='text-gray-800 text-4xl font-bold flex items-end justify-end mb-5'>Rs. { total.toLocaleString() }</h2>
       </div>
     </>
   )

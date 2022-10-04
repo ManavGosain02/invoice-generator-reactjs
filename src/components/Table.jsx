@@ -27,7 +27,7 @@ export default function Table({ list, total }) {
         ))}
       </table> 
       <div>
-            <h2 className='text-gray-800 text-4xl font-bold flex items-end justify-end'>Rs. { total }</h2>
+            <h2 className='text-gray-800 text-4xl font-bold flex items-end justify-end'>Rs. { total.toLocaleString() }</h2>
       </div>
     </>
   )
